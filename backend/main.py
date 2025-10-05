@@ -72,7 +72,7 @@ workflow.add_node("retrieve", retrieve_doc)
 workflow.add_node("generate", generate_answer)
 workflow.add_edge("retrieve", "generate")
 workflow.add_edge("generate", END)
-workflow.set_entry_point("retireve")
+workflow.set_entry_point("retrieve")
 
 rag_chain = workflow.compile()
 
