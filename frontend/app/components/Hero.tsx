@@ -72,7 +72,7 @@ const Hero = () => {
         {/* Upload Section */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-            1️⃣ Upload PDF
+            Upload PDF
           </h2>
           <div className="flex gap-4">
             <input
